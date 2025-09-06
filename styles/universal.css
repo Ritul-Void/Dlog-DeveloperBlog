@@ -1,0 +1,70 @@
+/* ==========================================================================
+   BareCSS v1.0
+   Purpose: Clean baseline + responsiveness without opinionated styles
+   ========================================================================== */
+
+/* 1. Universal box-sizing for predictable layouts */
+html {
+  box-sizing: border-box;
+  font-size: 100%; /* Respect browser defaults (16px unless changed) */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* 2. Remove default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Set up body defaults for readability & smooth rendering */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 4. Make images and media responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 5. Make form elements inherit font settings */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 6. Avoid text overflow issues */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 7. Responsive typography base (optional, safe) */
+:root {
+  font-size: clamp(14px, 1vw + 0.5rem, 18px);
+}
+
+/* 8. Remove list styles */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 9. Ensure main/root containers fit without extra spacing */
+main, #root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* 10. Prevent horizontal scroll caused by overflowing content */
+html, body {
+  overflow-x: hidden;
+}
