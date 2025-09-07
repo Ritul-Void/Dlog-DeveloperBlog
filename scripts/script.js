@@ -73,15 +73,15 @@ function renderPosts() {
     filteredPosts.forEach(function (post) {
         postsHTML += '<div class="post-card" data-id="' + post.id + '">' +
             '<h3 class="post-title">' + post.title + '</h3>' +
-            '<div class="post-meta">' +
-            '<span>' + formatDate(post.created) + '</span>' +
-            '<span>' + post.time_to_read + ' read</span>' +
-            '</div>' +
+
             '<div class="post-preview">' + getPreview(post.body) + '</div>' +
             '<div class="post-tags">' +
             post.tags.map(function (tag) {
                 return '<span class="tag">' + tag + '</span>';
             }).join('') +
+            '</div>' + '<div class="post-meta">' +
+            '<span>' + formatDate(post.created) + '</span>' +
+            '<span>' + post.time_to_read + ' read</span>' +
             '</div>' +
             '</div>';
     });
