@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "How I Built This Blog",
+        "body": "# How I Built This Blog – The Back Story\n\nI have never made a blog website before, but I always wanted to start one. I wanted a place to write about my projects, share the process behind them, and explain the back story of how things are made. This blog is my way of learning while also sharing that learning with others.\n\n## Starting from Scratch\n\nWhen I started, I had no experience building a blog system. I also had never used GitHub as part of a full workflow. I had used it only as a simple repository before. This time, I wanted to make it a part of everything.\n\nAt first, I studied how GitHub works. Once I understood the basics, I started building the blog using only HTML, CSS, and JavaScript. No frameworks, no extra tools—just the basics. The design I began with was simple, but it felt cluttered after a while. Progress was slow.\n\n## Stopping and Starting Again\n\nAfter a few days, I paused the project. Then I came back to it with a fresh perspective. This time, I wanted the blog to feel like a real, production-ready platform. I started researching how big websites build their front-end and how they structure their content.\n\nI found three websites that inspired me a lot:\n\n1. **Quora** – I liked how their posts and tags are arranged. I used that idea for my post structure and navigation.\n2. **Twitter** – Their header and profile layout are very simple but clear. I followed that style for the top section.\n3. **Reddit** – Reddit profiles include small analytics and details that make the page feel full instead of empty. I used this idea to add some basic statistics and a social bar.\n\n## The Final Touches\n\nAfter combining these inspirations, I added a gradient to the top and polished the layout. Slowly, the blog started to come together. It is still simple, but it works. I learned a lot about structuring content, using GitHub properly, and working with JSON to store my posts.\n\n## What’s Next\n\nThis is only the start. I plan to share more posts about my projects, cheat sheets, and small tutorials. My goal is to write in a way that is easy to follow and honest about the process—both the struggles and the small wins.",
+        "created": "2025-09-08",
+        "time_to_read": "15mins",
+        "tags": [
+            "Css",
+            "Tutorial"
+        ],
+        "published": true
+    },
+    {
+        "id": 2,
+        "title": "The Silent Forest mock post",
+        "body": "# The Silent Forest\n\nWalking through the forest, he noticed how **silent** everything was. No birds. No insects. Not even the wind.\n\n```javascript\n// A simple test code block\nfunction hello() {\n  console.log(\"Hello, world!\");\n}\n```\n\nThat’s when he realized the silence wasn’t natural—it was watching him.\n\n### Key Takeaways\n- Silence can be more terrifying than noise.\n- Trust your instincts.\n- Stories breathe life into plain text.",
+        "created": "2025-09-07",
+        "time_to_read": "7mins",
+        "tags": [
+            "Css",
+            "Tutorial"
+        ],
+        "published": false
+    }
+]
