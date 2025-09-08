@@ -27,7 +27,7 @@ function setupEventListeners() {
 async function loadPosts() {
     try {
 
-        const response = await fetch("https://raw.githubusercontent.com/Ritul-Void/while-true-blog/refs/heads/main/posts/posts.json")
+        const response = await fetch("https://raw.githubusercontent.com/Ritul-Void/Dlog-DeveloperBlog/refs/heads/main/data/posts.json")
         const allPosts = await response.json()
         posts = allPosts.filter(function (post) {
             return post.published;
